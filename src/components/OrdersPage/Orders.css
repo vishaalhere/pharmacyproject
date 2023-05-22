@@ -1,0 +1,19 @@
+.orders-container{
+    margin: 2rem 7.5rem;
+}
+.orders-heading{
+    font-size: var(--fs-700);
+    font-weight: var(--fw-bold);
+    margin-bottom: 2rem;
+}
+.orders-content{
+    display: flex;
+    justify-content: space-between;
+}
+.filters-heading{
+    font-size: var(--fs-550);
+    font-weight: var(--fw-bold);
+}
+.orders-table{
+    width:86%;
+}

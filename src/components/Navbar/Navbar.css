@@ -1,0 +1,39 @@
+.navbar-container{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: white;
+    box-shadow: 0px 1px 6px  rgb(210, 210, 210);
+}
+.nav-logo{
+    display: inline;
+    width: 3rem;
+}
+.nav-heading{
+    font-size: var(--fs-primary-heading);
+    color: var(--clr-accent-300);
+    font-weight: var(--fw-semi-bold);
+}
+.nav-routes-container,.nav-logo-routes-container{
+    display: flex;
+    align-items: center;
+}
+.nav-routes-container{
+    margin-left: 3rem;
+}
+.route{
+    margin-right: 2rem;
+    color: var(--clr-accent-300);
+    text-decoration: none;
+    padding: 24px 0 16px;
+}
+.route,.logout{
+    cursor: pointer;
+}
+.selected{
+    color: var(--clr-primary);
+    font-weight: var(--fw-bold);
+    border-bottom: 3px solid var(--clr-primary);
+}

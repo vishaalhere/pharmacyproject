@@ -1,0 +1,35 @@
+.users-container{
+    margin: 2rem 7.5rem;
+}
+.users-heading{
+    font-size: var(--fs-700);
+    font-weight: var(--fw-bold);
+    margin-bottom: 2rem;
+}
+.users-content{
+    /* display: flex;
+    justify-content: space-between; */
+}
+.users-table{
+    width:100%;
+}
+.searchBar-container{
+    margin-bottom: 2rem;
+}
+.searchBar-container > input{
+    padding: .8rem;
+    width: 35rem;
+    margin-right: 2rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.reset-btn{
+    padding: .8rem 2.5rem;
+    background-color: var(--clr-primary);
+    border-radius: 2rem;
+    font-size: var(--fs-400);
+    color: white;
+    border: none;
+    cursor: pointer;
+}

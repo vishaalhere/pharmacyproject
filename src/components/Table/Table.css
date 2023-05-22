@@ -1,0 +1,23 @@
+.table-headers{
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-body-2);
+}
+.table-data{
+    color: var(--clr-accent-300);
+    font-size: var(--fs-400);
+    padding: 1.5rem 0rem;
+}
+.table-data-row{
+    background-color: white;
+    margin: 1rem 0rem;
+}
+.table-headers-row, .table-data-row{
+    padding: 0 .8rem;
+}
+.clr-grey{
+    color: var(--clr-accent-100);
+}
+table {
+    border-collapse:separate; 
+    border-spacing: 0 .35rem;
+}

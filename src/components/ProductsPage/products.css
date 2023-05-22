@@ -1,0 +1,19 @@
+.products-container{
+    margin: 2rem 7.5rem;
+}
+.products-heading{
+    font-size: var(--fs-700);
+    font-weight: var(--fw-bold);
+    margin-bottom: 2rem;
+}
+.products-content{
+    display: flex;
+    justify-content: space-between;
+}
+.filters-heading{
+    font-size: var(--fs-550);
+    font-weight: var(--fw-bold);
+}
+.products-table{
+    width:86%;
+}
